@@ -6,7 +6,7 @@ objects = [[], []]
 
 
 # 월드에 객체를 넣는 함수
-def add_object(o, depth = 0):
+def add_object(o, depth=0):
     objects[depth].append(o)
 
 
